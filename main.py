@@ -8,7 +8,7 @@ from email.mime.application import MIMEApplication
 # Function to send email with attachments
 def send_email(recipient_email, subject, body, attachment_path):
     sender_email = "abc@gmail.com"  # Replace with your email
-    sender_password = "abc def ghi jkl"  # Replace with your app password(It is not your gmail password)
+    sender_password = "abc def ghi jkl"  # Replace with your app password(It is not your gmail password. It is 16 letters code as far as I know)
 
     try:
         # Set up the MIME structure
